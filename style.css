@@ -395,7 +395,7 @@ a   { text-decoration: none; color: inherit; }
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 68%;
 }
 .studio-overlay {
   position: absolute;
@@ -444,6 +444,12 @@ a   { text-decoration: none; color: inherit; }
 .price-item--highlight {
   background: var(--white);
   border-radius: 4px;
+  border: 1.5px solid var(--accent-lt);
+}
+.price-item--regular {
+  background: var(--white);
+  border-radius: 4px;
+  border: 1.5px solid var(--border);
 }
 
 .price-label {
