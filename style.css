@@ -889,8 +889,9 @@ a   { text-decoration: none; color: inherit; }
    ===================================================== */
 @media (max-width: 800px) {
   .hdr-nav        { display: none; }
-  .btn-ig-hdr     { display: none; }   /* モバイルではヘッダーIGアイコン非表示 */
   .menu-toggle    { display: flex; }
+  .ig-hdr-label   { display: none; }   /* モバイルではIGボタンをアイコンのみに */
+  .btn-ig-hdr     { padding: 7px 10px; }
 
   .about-features {
     grid-template-columns: 1fr;
